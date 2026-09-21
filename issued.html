@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issued Books | LibraNest</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <span>📚</span> LibraNest
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="books.html">Books</a>
+            <a href="members.html">Members</a>
+            <a href="issued.html" class="active">Issued Books</a>
+            <a href="rules.html">Rules</a>
+            <a href="profile.html">My Profile</a>
+        </div>
+    </nav>
+
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div>
+            <p class="small-title">LIBRARY RECORDS</p>
+            <h1>Issued Books</h1>
+            <p>Track currently borrowed books and their return dates.</p>
+        </div>
+
+        <div class="header-count">
+            <strong>42</strong>
+            <span>Books Issued</span>
+        </div>
+    </section>
+
+
+    <!-- Summary Cards -->
+    <section class="issued-summary">
+
+        <div class="summary-card">
+            <div class="summary-icon">📖</div>
+            <div>
+                <h3>42</h3>
+                <p>Total Issued</p>
+            </div>
+        </div>
+
+        <div class="summary-card">
+            <div class="summary-icon">⏳</div>
+            <div>
+                <h3>34</h3>
+                <p>On Time</p>
+            </div>
+        </div>
+
+        <div class="summary-card">
+            <div class="summary-icon">⚠️</div>
+            <div>
+                <h3>08</h3>
+                <p>Overdue</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Issued Books Table -->
+    <section class="issued-section">
+
+        <div class="section-heading">
+            <div>
+                <p class="small-title">CURRENT RECORDS</p>
+                <h2>Borrowed Books</h2>
+            </div>
+
+            <div class="table-note">
+                Updated regularly
+            </div>
+        </div>
+
+
+        <div class="issued-table-wrapper">
+
+            <table class="issued-table">
+
+                <thead>
+                    <tr>
+                        <th>Book</th>
+                        <th>Member</th>
+                        <th>Issue Date</th>
+                        <th>Due Date</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>
+                            <div class="book-name">
+                                <div class="mini-book">CC</div>
+                                <div>
+                                    <strong>Clean Code</strong>
+                                    <span>BK001</span>
+                                </div>
+                            </div>
+                        </td>
+
+                        <td>
+                            <div class="member-name">
+                                <strong>Shreya Kumari</strong>
+                                <span>LM1024</span>
+                            </div>
+                        </td>
+
+                        <td>12 Sep 2026</td>
+                        <td>26 Sep 2026</td>
+
+                        <td>
+                            <span class="status on-time">On Time</span>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <div class="book-name">
+                                <div class="mini-book">AH</div>
+                                <div>
+                                    <strong>Atomic Habits</strong>
+                                    <span>BK002</span>
+                                </div>
+                            </div>
+                        </td>
+
+                        <td>
+                            <div class="member-name">
+                                <strong>Smriti Singh</strong>
+                                <span>LM1025</span>
+                            </div>
+                        </td>
+
+                        <td>08 Sep 2026</td>
+                        <td>22 Sep 2026</td>
+
+                        <td>
+                            <span class="status overdue">Overdue</span>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <div class="book-name">
+                                <div class="mini-book">DS</div>
+                                <div>
+                                    <strong>Data Science</strong>
+                                    <span>BK003</span>
+                                </div>
+                            </div>
+                        </td>
+
+                        <td>
+                            <div class="member-name">
+                                <strong>Tannu Kumari</strong>
+                                <span>LM1026</span>
+                            </div>
+                        </td>
+
+                        <td>14 Sep 2026</td>
+                        <td>28 Sep 2026</td>
+
+                        <td>
+                            <span class="status on-time">On Time</span>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <div class="book-name">
+                                <div class="mini-book">TA</div>
+                                <div>
+                                    <strong>Think Again</strong>
+                                    <span>BK004</span>
+                                </div>
+                            </div>
+                        </td>
+
+                        <td>
+                            <div class="member-name">
+                                <strong>Anjali Kumari </strong>
+                                <span>LM1029</span>
+                            </div>
+                        </td>
+
+                        <td>05 Sep 2026</td>
+                        <td>19 Sep 2026</td>
+
+                        <td>
+                            <span class="status overdue">Overdue</span>
+                        </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <h3>LibraNest</h3>
+        <p>A smarter way to manage your library.</p>
+        <span>© 2026 LibraNest Library Management System</span>
+    </footer>
+
+</body>
+</html>
