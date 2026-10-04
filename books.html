@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LibraNest | Books</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/extra.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <header class="navbar">
+
+        <div class="logo">
+
+            <div class="logo-icon">
+                L
+            </div>
+
+            <div>
+                <h2>LibraNest</h2>
+                <span>Library Management</span>
+            </div>
+
+        </div>
+
+
+        <nav>
+
+            <a href="index.html">Home</a>
+
+            <a href="books.html" class="active">
+                Books
+            </a>
+
+            <a href="members.html">
+                Members
+            </a>
+
+            <a href="issued.html">
+                Issued Books
+            </a>
+
+            <a href="rules.html">
+                Rules
+            </a>
+
+        </nav>
+
+
+        <a href="profile.html" class="profile-btn">
+            My Profile
+        </a>
+
+    </header>
+
+
+
+    <!-- Page Header -->
+
+    <section class="page-header">
+
+        <div>
+
+            <span class="small-title">
+                LIBRARY COLLECTION
+            </span>
+
+            <h1>
+                Explore Our Books
+            </h1>
+
+            <p>
+                Discover books from different subjects,
+                categories and interests.
+            </p>
+
+        </div>
+
+
+        <div class="book-count">
+
+            <strong id="count-books">0</strong>
+
+            <span>Total Books</span>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Search UI -->
+
+    <section class="book-tools">
+
+        <div class="search-box">
+
+            <span>⌕</span>
+
+            <input id="search" type="text"
+                placeholder="Search books, authors or categories..."
+            >
+
+        </div>
+
+
+        <div class="filter-box">
+
+            <span>Category</span>
+
+            <select id="category">
+
+                <option>All Categories</option>
+
+                <option>Programming</option>
+
+                <option>Technology</option>
+
+                <option>Science</option>
+
+                <option>Self Growth</option>
+
+                <option>Literature</option>
+
+            </select>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Books -->
+
+    <main class="books-container" id="books-list"></main>
+
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <div>
+
+            <h3>
+                LibraNest
+            </h3>
+
+            <p>
+                Making reading simple and accessible.
+            </p>
+
+        </div>
+
+
+        <p>
+            © 2026 LibraNest Library. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
