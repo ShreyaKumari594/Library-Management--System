@@ -1,8 +1,0 @@
-/* Small additions for the JavaScript-powered forms. Your main styles stay in style.css */
-.admin-form{display:flex;flex-wrap:wrap;gap:10px;max-width:1100px;margin:16px auto;padding:0 20px}
-.admin-form input,.admin-form select{flex:1;min-width:150px;padding:10px 12px;border:1px solid #d8d4c8;border-radius:8px;font:inherit}
-.admin-form button,.mini-btn{padding:10px 16px;border:0;border-radius:8px;background:#2f5d50;color:#fff;cursor:pointer;font:inherit}
-.mini-btn{padding:5px 10px;font-size:13px;margin-left:6px}.mini-btn.del{background:#b3392f}
-.status.returned{background:#e8e6dd;color:#555}
-#toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#b3392f;color:#fff;padding:10px 18px;border-radius:8px;display:none;z-index:9}
-.empty{padding:30px;text-align:center;color:#777;width:100%}
